@@ -12,6 +12,8 @@
 		36F123061E4CB7A9008A631F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F123041E4CB7A9008A631F /* Main.storyboard */; };
 		36F123081E4CB7A9008A631F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F123071E4CB7A9008A631F /* Assets.xcassets */; };
 		36F1230B1E4CB7A9008A631F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F123091E4CB7A9008A631F /* LaunchScreen.storyboard */; };
+		36F123131E4CB7D7008A631F /* HCI.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36F123121E4CB7D7008A631F /* HCI.txt */; };
+		36F123151E4CBAA2008A631F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F123141E4CBAA2008A631F /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		36F123071E4CB7A9008A631F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36F1230A1E4CB7A9008A631F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36F1230C1E4CB7A9008A631F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F123121E4CB7D7008A631F /* HCI.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HCI.txt; sourceTree = "<group>"; };
+		36F123141E4CBAA2008A631F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				36F123001E4CB7A9008A631F /* AppDelegate.swift */,
 				36F123021E4CB7A9008A631F /* ViewController.swift */,
 				36F123041E4CB7A9008A631F /* Main.storyboard */,
+				36F123121E4CB7D7008A631F /* HCI.txt */,
 				36F123071E4CB7A9008A631F /* Assets.xcassets */,
 				36F123091E4CB7A9008A631F /* LaunchScreen.storyboard */,
 				36F1230C1E4CB7A9008A631F /* Info.plist */,
+				36F123141E4CBAA2008A631F /* TableViewCell.swift */,
 			);
 			path = Cheat;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F123131E4CB7D7008A631F /* HCI.txt in Resources */,
 				36F1230B1E4CB7A9008A631F /* LaunchScreen.storyboard in Resources */,
 				36F123081E4CB7A9008A631F /* Assets.xcassets in Resources */,
 				36F123061E4CB7A9008A631F /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F123151E4CBAA2008A631F /* TableViewCell.swift in Sources */,
 				36F123031E4CB7A9008A631F /* ViewController.swift in Sources */,
 				36F123011E4CB7A9008A631F /* AppDelegate.swift in Sources */,
 			);
